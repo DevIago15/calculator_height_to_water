@@ -19,14 +19,14 @@ public class Program {
 		entitie.height = sc.nextDouble();
 		
 		// do converter
-		double water = 35.0;
+		double water = 0.035;
 		water = water * entitie.height;
 		
-		double bottleWater = 500.0;
-		bottleWater = bottleWater / entitie.height;
+		double bottleWater = 0.5;
+		bottleWater = bottleWater * entitie.height;
 		
-		double cupWater = 310.0;
-		cupWater = cupWater / entitie.height;
+		double cupWater = 0.31;
+		cupWater = cupWater * entitie.height;
 		
 		
 		// out data
